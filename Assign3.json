@@ -1,0 +1,42 @@
+var jsonObject = {
+    "products":[
+        {
+            "emp_dp": "./images-assign-3/8.png",
+            "employee_name": "Christopher",
+            "employee_designation": "Software Developer Intern",
+            "employee_details":"Newly joined Interns."
+    
+        },
+        {
+            "emp_dp": "./images-assign-3/8.png",
+            "employee_name": "Kameswaren",
+            "employee_designation": "Software Developer Intern",
+            "employee_details": "Newly joined Interns "
+        },
+        {
+            "emp_dp": "./images-assign-3/8.png",
+            "employee_name": "Manikandan JN ",
+            "employee_designation": "Software Developer Intern",
+            "employee_details": "Newly joined Interns "
+        },
+        {
+            "emp_dp": "./images-assign-3/8.png",
+            "employee_name": "Mahalakshmi",
+            "employee_designation": "Software Developer Intern",
+            "employee_details": "Newly joined Interns "
+        },
+        // {
+        //     "emp_dp": " ",
+        //     "employee_name": "Savitha Thomas",
+        //     "employee_designation": "Software Developer Intern",
+        //     "employee_details": "Newly joined Interns"
+        // },
+        // {
+        //     "emp_dp": " ",
+        //     "employee_name": "Anoosha",
+        //     "employee_designation": "Software Developer Engineer",
+        //     "employee_details": " SDE @ Fibonalabs"
+        // }
+    ]
+}
+
