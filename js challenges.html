@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Program 1
+      let a = myFunction([1, 2, 3, 4]);
+      let b = myFunction([5, 4, 3, 2, 1, 0]);
+      let c = myFunction([99, 1, 1]);
+
+      function myFunction(kids) {
+        kids.splice(0, 3);
+        return kids;
+      }
+      console.log(a, b, c);
+      //   console.log(a);
+      //   console.log(b);
+      //   console.log(c);
+
+      // Program 2
+
+      let d = myFunction_1([1, 2, 3], 2);
+      let e = myFunction_1([1, 2, "2"], "2");
+      let f = myFunction_1([false, "2", 1], false);
+      let g = myFunction_1([1, 2, "2", 1], 1);
+
+      function myFunction_1(kidz, x) {
+        let i = kidz.indexOf(x);
+        kidz.splice(i, 1);
+        return kidz;
+      }
+
+      console.log(d, e, f, g);
+      //   console.log(d);
+      //   console.log(e);
+      //   console.log(f);
+      //   console.log(g);
+    </script>
+  </body>
+</html>

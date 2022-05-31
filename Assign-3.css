@@ -20,10 +20,11 @@ body{
     align-items: center;
     justify-content: space-between;
     width: 4%;
-    background-color:#E7F2FF;
+    /* background-color:#E7F2FF; */
     height: 100vh;
     /* overflow: hidden; */
     position: sticky;
+    background-color: #F4F9FF;
     left: 0;
     top: 0;
 }
@@ -124,7 +125,7 @@ header{
     display: grid;
     margin-top: 20px;
     box-shadow: 0 0 10px 2px rgb(144, 185, 252);
-    display: none;
+    /* display: none; */
     
 }.card1_p{
     font-family: 'Montserrat';
@@ -134,66 +135,63 @@ header{
     line-height: 20px;
 }
 .card1 #btn{
-    float: right;
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 13px;
     width: 95px;
     height: 25px;
     padding: 0px 5px;
     margin: 0px 15px;
+    margin-left: 160px;
+    background-color: #2B78D4;
+    color: white;
+    border-radius: 8px;
+    /* box-shadow: 0 0 5px 2px #2B78D4;  */
 }
 
 .card2{
-    /* border-color: #2B78D4;
-    border-style:solid;
-    border-width: 1.6px; */
     display: inline-flex;
     margin-top: 20px;
-    /* height: 130px;
-    width: 290px; */
     width: 270px;
     height: 150px;
     background-color: white;
     border-radius: 15px;
-    /* box-shadow: 5px #7D7D7D; */
-    /* box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     box-shadow: 0 0 10px 2px rgb(144, 185, 252);
+    overflow: hidden;
 }
+
 .rect1{
     margin: 10px 10px 10px 15px;
     height: 40px;
     width: 40px;
-    /* background-color: #D1DCF4;
-    border-radius: 10px;   */
 }
+
 .rect1 .rect_img{
-    /* margin: 2px 2px; */
+   
     justify-content: center;
     border-radius: 150px;
-    height: 50px;
-    width: 50px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #002653;
+    height: 60px;
+    width: 60px;
+   
 }
+
 .rect1 .rect_img1{
     margin: 5px 10px;
     justify-content: center;
 }
+
 .card2 .subrect_p1{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 900;
     font-size: 18px;
     line-height: 27px;
-    color:  #002653;
-    margin: 8px 10px 0 0;
+    color:  #002653; 
+    margin: 8px 10px 0 0; 
 }
+
 .subrect{
     margin-left: 10px;
 }
+
 .subrect span{
     Font-family: 'Montserrat';
     font-weight: 400;
@@ -201,11 +199,12 @@ header{
     line-height: 19.5px;
     color: #5C83B1;
 }
+
 .subrect .subrect_p2{
     Font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 12px;
     line-height: 20px;
     color: #5C83B1;
     margin-top: 15px;
