@@ -1,42 +1,84 @@
 var jsonObject = {
-    "products":[
-        {
+        "products":[
+        {   "htext":"This workflow is to enable an employee raise his leave request and get it approved it from him reporting manager",
+            "view":"View Details",
+            "emp_id" : "12345",
             "emp_dp": "./images-assign-3/8.png",
             "employee_name": "Christopher",
             "employee_designation": "Software Developer Intern",
             "employee_details":"Joined as Software Developer Interns."
     
         },
-        {
+        {   "htext":"This workflow is to enable an employee raise his leave request and get it approved it from him reporting manager",
+            "view":"View Details",
+            "emp_id" : "12345",
             "emp_dp": "./images-assign-3/8.png",
             "employee_name": "Kameswaren",
             "employee_designation": "Software Developer Intern",
             "employee_details": "Joined as Software Developer Interns "
         },
-        {
+        {   "htext":"This workflow is to enable an employee raise his leave request and get it approved it from him reporting manager",
+            "view":"View Details",
+            "emp_id" : "12345",
             "emp_dp": "./images-assign-3/8.png",
             "employee_name": "Manikandan JN ",
             "employee_designation": "Software Developer Intern",
             "employee_details": "Joined as Software Developer Interns "
         },
-        {
+        {   "htext":"This workflow is to enable an employee raise his leave request and get it approved it from him reporting manager",
+            "view":"View Details",
+            "emp_id" : "12345",
             "emp_dp": "./images-assign-3/8.png",
             "employee_name": "Mahalakshmi",
             "employee_designation": "Software Developer Intern",
             "employee_details": "Joined as Software Developer Interns "
         },
-        {
+        {   "htext":"This workflow is to enable an employee raise his leave request and get it approved it from him reporting manager",
+            "view":"View Details",
+            "emp_id" : "12345",
             "emp_dp": "./images-assign-3/8.png",
             "employee_name": "Savitha Thomas",
             "employee_designation": "Software Developer Intern",
             "employee_details": "Joined as Software Developer Interns"
         },
-        {
+        {   "htext":"This workflow is to enable an employee raise his leave request and get it approved it from him reporting manager",
+            "view":"View Details",
+            "emp_id" : "12345",
             "emp_dp": "./images-assign-3/8.png",
             "employee_name": "Anoosha",
             "employee_designation": "Software Developer Engineer",
             "employee_details": " SDE @ Fibonalabs"
+        },
+        {
+            "htext":"This workflow is to enable an employee raise his leave request and get it approved it from him reporting manager",
+            "view":"View Details",
+            "emp_id" : "12345",
+            "emp_dp": "./images-assign-3/8.png",
+            "employee_name": "Aditya",
+            "employee_designation": "Software Developer Intern",
+            "employee_details": "Joined as Software Developer Interns"
+        },
+        {
+            "htext":"This workflow is to enable an employee raise his leave request and get it approved it from him reporting manager",
+            "view":"View Details",
+            "emp_id" : "12345",
+            "emp_dp": "./images-assign-3/8.png",
+            "employee_name": "Shiva ",
+            "employee_designation": "SDE",
+            "employee_details": "SDE @ Fibonalabs"
+        },
+        {
+            "htext":"This workflow is to enable an employee raise his leave request and get it approved it from him reporting manager",
+            "view":"View Details",
+            "emp_id" : "12345",
+            "emp_dp": "./images-assign-3/8.png",
+            "employee_name": "Haneef",
+            "employee_designation": "UX Designer",
+            "employee_details": "Ux Designer"
         }
+       
     ]
 }
+
+
 

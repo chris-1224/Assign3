@@ -7,13 +7,16 @@
     box-sizing: border-box;
     background-color:#F4F9FF;
 }
+
 body{
     width: 100%;
     height: 100vh;
 }
+
 .container{
     display: flex;
 }
+
 .side-bar{
     display: flex;
     flex-direction: column;
@@ -28,12 +31,15 @@ body{
     left: 0;
     top: 0;
 }
+
 .img-aa{
     width: 50px;
 }
+
 .nav-side-top{
     width: 100%;
 }
+
 .side-nav-middle{
     display: flex;
     margin-bottom: 10px;
@@ -41,12 +47,14 @@ body{
     justify-content: center;
     flex-direction: column;
 }
+
 .side-nav-bottom{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
+
 .container-2{
     display: grid;
     /* grid-template-rows: 10% 90%; */
@@ -124,10 +132,10 @@ header{
     border-radius: 20px;
     display: grid;
     margin-top: 20px;
-    box-shadow: 0 0 10px 2px rgb(144, 185, 252);
+    box-shadow: 0 0 5px 2px rgb(144, 185, 252);
     /* display: none; */
-    
-}.card1_p{
+}    
+.card1_p{
     font-family: 'Montserrat';
     margin: 15px 15px;
     font-size: 12px;
@@ -144,7 +152,7 @@ header{
     background-color: #2B78D4;
     color: white;
     border-radius: 8px;
-    /* box-shadow: 0 0 5px 2px #2B78D4;  */
+    box-shadow: 0 0 5px 2px #2B78D4; 
 }
 
 .card2{
@@ -164,18 +172,11 @@ header{
     width: 40px;
 }
 
-.rect1 .rect_img{
-   
+.rect1 .rect_img {
     justify-content: center;
     border-radius: 150px;
     height: 60px;
     width: 60px;
-   
-}
-
-.rect1 .rect_img1{
-    margin: 5px 10px;
-    justify-content: center;
 }
 
 .card2 .subrect_p1{
@@ -209,3 +210,86 @@ header{
     color: #5C83B1;
     margin-top: 15px;
 }
+
+div:hover > .card2{
+    display: none;
+}
+
+div:hover > .hoverdis{
+   display: block;
+}
+
+.hoverdis  {
+    width: 270px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: grid;
+    margin-top: 20px;
+    box-shadow: 0 0 10px 2px rgb(144, 185, 252);
+    display: none;
+    font-family: 'Montserrat';
+    margin: 15px 15px;
+    font-size: 12px;
+    color: #7D7D7D;
+    line-height: 20px;
+    padding: 10px;
+}
+.hoverdis .btn{
+    font-family: 'Montserrat';
+    width: 95px;
+    height: 25px;
+    padding: 0px 5px;
+    margin: 0px 15px;
+    margin-left: 150px;
+    margin-top: 45px;
+    font-size: 12px;
+    background-color: #2B78D4;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 2px #2B78D4; 
+}
+
+.card2{
+    display: flex;
+    margin-top: 20px;
+    width: 270px;
+    height: 150px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px rgb(144, 185, 252);
+    overflow: hidden;
+}
+.img-1{
+    justify-content: center;
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+}
+.card2 .name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px;
+    color:  #002653; 
+    margin: 8px 10px 0 0; 
+}
+.desg {
+    Font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19.5px;
+    color: #5C83B1;
+    margin-top: 5px;
+}
+.details{
+    Font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #5C83B1;
+    margin-top: 40px;
+}
+
